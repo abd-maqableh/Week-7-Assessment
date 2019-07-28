@@ -2,11 +2,39 @@
 <html>
 
 <head>
+
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<title>Q4</title>
+	
 </head>
 
 <body>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<div class="main">'Main div is here'</div>
+	<button id="no" style="background-color: red">Red </button>
+	<button id="yes" style="background-color: green">Green </button>
+
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+
+	<script>
+			$(document).ready(function(){
+				$('#no').click(function(){
+				$('.main').css({background:'red'})															
+				})
+				$('#yes').click(function(){
+				$('.main').css({ background:'green'  })																
+				})
+				console.log("sfsdfdsfads")
+		
+			})
+			</script>
+	
+
+
+
 </body>
 
 </html>
